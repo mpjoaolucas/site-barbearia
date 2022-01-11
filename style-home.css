@@ -1,0 +1,53 @@
++body {
+	
+}
+h1{
+	style="text-align: center"
+}
+
+#jpeg{
+width: 1000px;
+}
+
+.principal {
+	background: #cccccc;
+	padding: 30px;
+}
+barbearia alura
+
+
+.titolo-principal{
+	padding-left: 20px;
+}
+
+.titolo-centralizado {
+	text-align: center;
+}
+
+#missao {
+	style="font-size: 20px"
+}
+
+em strong {
+	color: red;
+}
+.itens {
+	font-style: italic;
+}
+.beneficios {
+	background: #ffffff;
+	padding: 20px;
+}
+
+
+ul{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembarba{
+width: 70%;
+}
+
