@@ -1,84 +1,130 @@
+<!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-			<title>barbearia alura</title>
-				<link rel="stylesheet" href="reset.css">
-				<link rel="stylesheet" href="style.css">
-	</head>
-	
-	<body><header>
-				<div class="caixa">
-			     <h1><img src="logo.png"></h1>
-			     
-			     <nav>
-			     		<ul>
-			        		<li><a href="index.html">home</a></li>
-			        		<li><a href="produtos.html">produtos</a></li>
-			        		<li><a href="contato.html">contato</a></li>
-			     		</ul>
-			     </nav>
-			     </div>
-			 </header>
-		<header>
-		</header>
-		<img id="jpeg" class="cadeira" src="cadeira.png">
-		
-		<main>
-			<section class="principal">
-				<h1 class="titulo-principal">Sobre a Barbearia Alura</h1>
-                                  
-				<img class="coisas" src="coisas.png" alt="utensilios de um barbeiro.">   
-				
-				<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia Alura | Estilo & Atitude</title>
+    
+    <!-- Meta tags for SEO & modern look -->
+    <meta name="description" content="A Barbearia Alura traz para o mercado o que há de melhor para o seu cabelo e barba no coração da cidade.">
+    
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
 
-				<p id="missao" style="font-size: 20px"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong>.</em></p>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/images/logo.png" alt="Barbearia Alura">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#sobre">A Barbearia</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
-			</section>
-			
-			<section class="mapa">
-			 <h2 class="titulo-principal">Nosso estabelecimeto</h2>
-			 <p> Nosso estabelecimentoestá localizado no coração da cidade.</p>
-			 
-			                  <div class="mapa-conteudo">
-			 	    					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4498404748924!2d-46.634520584528616!3d-23.
-			 	    					588194784669497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!
-			 	    					2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1641309591290!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
-            			      </div>
-			
-			</section>
-		
-			<section class="beneficios">
-				<h2 class="titulo-principal">beneficios</h2>
-		      
-				
-			   <div class="conteudo-beneficios">
-					<ul class="lista-beneficis">
-		   			<li class="itens"> atedimento aos clientes</li>
-						<li class="itens"> espaço diferenciado</li>
-						<li class="itens"> localização </li> 
-						<li class="itens"> profissionais qualificados</li>
-						<li class="itens"> pontualidade </li>
-						<li class="itens"> limpesa </li>
-					</ul><img src="barba.jpeg" class="imagembarba">
-            </div>				
-				
-				<div class="video">
-					<iframe width="500" height="315" src="https://www.youtube.com/embed/XT2l8Dkiy7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
-				 	clipboard-write; encrypted-media; gyroscope;
-				 	picture-in-picture" allowfullscreen></iframe>
-				</div>
-		
-			</section>
-		</main>
-		
-		<footer>
-			     <img src="logo-branco.png">
-			     <p class="copyright">&copy;copyright Barbearia Alura-2020 
-		</footer>  
-	</body>
+    <main>
+        <!-- Secão Hero -->
+        <section id="hero" class="hero">
+            <img src="assets/images/cadeira.png" alt="Cadeira de Barbeiro" class="hero-bg">
+            <h1>Corte <span>A Dúvida</span></h1>
+            <p>Esqueça o padrão. Na Barbearia Alura nós forjamos identidade com navalha e atitude.</p>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="sobre" class="sobre">
+            <div class="sobre-content">
+                <h2 class="section-title">Sobre Nós</h2>
+                <p>Localizada no coração da cidade, a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, nós destruímos os padrões de barbearias clichês para entregar um serviço visceral, impecável e moderno.</p>
+                <p class="missao">"Proporcionar atitude, auto-estima e poder aos nossos clientes."</p>
+                <p>Oferecemos profissionais experientes e técnicos incansáveis. O atendimento possui um padrão de excelência brutal que não deixa margem para o erro.</p>
+            </div>
+            
+            <div class="sobre-img-container">
+                <img src="assets/images/coissas.png" alt="Equipamentos e atitude">
+            </div>
+        </section>
+
+        <!-- Seção de Produtos/Serviços -->
+        <section id="servicos">
+            <h2 class="section-title" style="text-align: right;">Nossos Serviços</h2>
+            <div class="servicos-grid">
+                
+                <div class="servico-card">
+                    <img src="assets/images/cabelo.jpg" alt="Corte de Cabelo">
+                    <h3>Corte <br>Cabelo</h3>
+                    <p>Na tesoura ou na máquina, esculpido exatamente como a sua identidade manda.</p>
+                    <div class="servico-preco">R$ 25,00</div>
+                </div>
+
+                <div class="servico-card">
+                    <img src="assets/images/barba.jpg" alt="Design de Barba">
+                    <h3>Design <br>Barba</h3>
+                    <p>Corte, alinhamento e desenho profissional de barba no fio da navalha.</p>
+                    <div class="servico-preco">R$ 18,00</div>
+                </div>
+
+                <div class="servico-card">
+                    <img src="assets/images/cabelo+barba.jpg" alt="Combo Completo">
+                    <h3>Combo <br>Absoluto</h3>
+                    <p>Pacote completo de cabelo e barba para domínio total do visual.</p>
+                    <div class="servico-preco">R$ 35,00</div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contato / Localização -->
+        <section id="contato">
+            <h2 class="section-title">Encontre-nos</h2>
+            
+            <div class="contato-wrapper">
+                <div class="info-section">
+                    <div class="info-box">
+                        <h3>Localização</h3>
+                        <p>No coração da cidade, no epicentro do movimento.</p>
+                    </div>
+                    
+                    <div class="mapa-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4498404748924!2d-46.634520584528616!3d-23.588194784669497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1641309591290!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+
+                    <div class="info-box" style="margin-top: 2rem;">
+                        <h3>Horário Sangramento</h3>
+                        <p>SEG A SEX: 8H ~ 20H</p>
+                    </div>
+                </div>
+
+                <form class="contato-form">
+                    <div class="input-group">
+                        <label for="nome">Nome Completo</label>
+                        <input type="text" id="nome" placeholder="Seu nome" required>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="contato@email.com" required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" rows="4" placeholder="Sua mensagem ou pedido de agendamento..." required></textarea>
+                    </div>
+
+                    <button type="submit">Enviar Sinal</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="assets/images/logo-branco.png" alt="Barbearia Alura Branco">
+        <p>&copy; Barbearia Alura 2026 - Nenhum padrão foi respeitado.</p>
+    </footer>
+
+</body>
 </html>
-
-
-		
